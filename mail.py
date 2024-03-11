@@ -10,8 +10,8 @@ from email.mime.image import MIMEImage
 def send_emails():
     smtp_server = 'smtp.kct.ac.in'
     smtp_port = 587
-    sender_email = 'gowtham.21cs@kct.ac.in'
-    sender_password = 'ztbslzvchwkhydpr'
+    sender_email = 'test@test.com' # Add your email
+    sender_password = 'xyz' # Add your App password here
     csv_path = csv_entry.get()
     text_path = text_entry.get()
     image_path = image_entry.get()
